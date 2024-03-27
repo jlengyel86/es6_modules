@@ -62,7 +62,7 @@ li.addEventListener("click", (event) => {
     removeBtn.disabled = false;
     removeBtn.onclick = (event) => {
         //removes car from wishlist
-        wishList.remove(car);
+        wishlist.remove(car);
 
         //reset vehicle card display value
         makeP.textContent = "";
